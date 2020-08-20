@@ -8,7 +8,7 @@ import 'app.component.inject.dart' as g;
 abstract class AppComponent {
   @provide
   MyApp get app;
-
+//mhd
   static Future<AppComponent> create() async {
     return await g.AppComponent$Injector.create(
     );
